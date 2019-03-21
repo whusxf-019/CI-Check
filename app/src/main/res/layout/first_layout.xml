@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.FirstActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:text="WONDER"
+        android:textColor="@color/black_overlay"
+        android:textAppearance="@style/TextAppearance.Shrine.Title" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:text="WONDER"
+        android:textColor="@color/black_overlay"
+        android:textAppearance="@style/TextAppearance.Shrine.Title" />
+
+    <RelativeLayout
+        android:id="@+id/rl_content1"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cutePink">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="20dp"
+            android:text="一个“纯粹”的打卡软件"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black_overlay"
+            android:layout_above="@id/bt_activity_first_login"
+            android:textAppearance="@style/TextAppearance.Shrine.Title" />
+
+
+        <com.example.hp.activitytest.util.PersonalButton
+            android:id="@+id/bt_activity_first_login"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="200dp"
+            android:text="登录"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="200dp"
+            android:layout_height="50dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_content2"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cutePink">
+        <com.example.hp.activitytest.util.PersonalButton
+            android:id = "@+id/bt_activity_first_register"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text = "注册"
+            />
+    </RelativeLayout>
+</RelativeLayout>

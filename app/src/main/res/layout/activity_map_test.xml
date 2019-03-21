@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MapTestActivity">
+
+
+    <com.baidu.mapapi.map.MapView
+       android:id="@+id/bmapView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        />
+
+    <Button
+        android:id="@+id/btn_CheckIn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/ripple_bg"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:outlineSpotShadowColor="@color/colorAccent"
+        android:shadowColor="@color/colorAccent"
+        android:text="开始打卡" />
+
+
+</RelativeLayout>

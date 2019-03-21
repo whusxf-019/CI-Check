@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.AD_MemberInfo"
+    tools:showIn="@layout/activity_ad_member_info">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15sp">
+        <TextView
+            android:id="@+id/content_ad_member_info_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aaaaaaaa"
+            android:textSize="40sp"
+            android:layout_marginVertical="15sp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#000"></View>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="15sp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="用户名:"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/content_ad_member_info_member"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="我是谁"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="15sp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="账号:"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/content_ad_member_info_account"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="25sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="15sp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="所在分组ID:"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/content_ad_member_info_group_id"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="25sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="15sp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="所在分组名字:"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/content_ad_member_info_group_name"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textSize="25sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

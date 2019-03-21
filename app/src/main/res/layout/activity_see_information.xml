@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.InformationActivity">
+
+    <TextView
+        android:id="@+id/login_tag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户名:"
+        android:gravity="left"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/et_activity_login_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:hint="请输入用户名"/>
+
+    <TextView
+        android:id="@+id/login_tag2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="密码:"
+        android:gravity=""
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/et_activity_login_psw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        />
+    <!--对应着操作数据库中的Select操作所显示的页面结果-->
+</LinearLayout>

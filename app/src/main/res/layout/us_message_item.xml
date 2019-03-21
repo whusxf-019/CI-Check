@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/us_message_layout">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/defaultcon"
+        android:id="@+id/us_typeIcon"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="系统消息"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:id="@+id/us_message_type"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/us_message_type"
+            android:text="消息内容XXXXXXXXx"
+            android:layout_alignLeft="@id/us_message_type"
+            android:maxLines="1"
+            android:id="@+id/us_message" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/us_message_time"
+            android:text="10:51"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@id/us_message"/>
+    </RelativeLayout>
+</LinearLayout>

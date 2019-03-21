@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hp.activitytest.activities.AD_LeaveConfirm">
+    <!--<item-->
+        <!--android:id="@+id/action_edit"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/edit"-->
+        <!--app:showAsAction="never"-->
+        <!--/>-->
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+</menu>

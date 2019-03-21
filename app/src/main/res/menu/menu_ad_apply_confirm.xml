@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hp.activitytest.activities.AD_MemberInfo">
+    <item
+        android:id="@+id/menu_ad_apply_confirm_exit"
+        android:orderInCategory="100"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+</menu>

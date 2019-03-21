@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".activities.UserReportActivity"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <android.support.design.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:text = "实时日分析"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="40dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black_overlay"
+                    android:textAppearance="@style/TextAppearance.Shrine.Title" />
+                    />
+                <android.support.design.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="30dp"
+                        >
+                        <EditText
+                            android:id = "@+id/et_activity_user_report_StartYear"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1.0"
+                            android:focusable="false"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:id = "@+id/tv_activity_user_report_StartYear"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="0.5"
+                            android:text="年"
+                            android:textSize="20dp"
+                            />
+                        <EditText
+                            android:id = "@+id/et_activity_user_report_StartMonth"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1.0"
+                            android:focusable="false"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:id = "@+id/tv_activity_user_report_StartMonth"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="0.5"
+                            android:text="月"
+                            android:textSize="20dp"
+                            />
+
+                        <EditText
+                            android:id="@+id/et_activity_user_report_StartDate"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1.0"
+                            android:focusable="false"
+                            android:gravity="center"
+                            />
+                        <TextView
+                            android:id = "@+id/tv_activity_user_report_StartDate"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="0.5"
+                            android:text="日"
+                            android:textSize="20dp"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        >
+                        <Button
+                            android:id = "@+id/bt_activity_user_report_starttime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text = "开始时间"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:background="@drawable/shape_nbbutton_background"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                </android.support.design.card.MaterialCardView>
+
+
+                <android.support.design.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical"
+                        >
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="20dp">
+                            <EditText
+                                android:id = "@+id/et_activity_user_report_EndYear"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="1.0"
+                                android:focusable="false"
+                                android:gravity="center"
+                                />
+                            <TextView
+                                android:id = "@+id/tv_activity_user_report_EndYear"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="0.5"
+                                android:text="年"
+                                android:textSize="20dp"
+                                />
+                            <EditText
+                                android:id = "@+id/et_activity_user_report_EndMonth"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="1.0"
+                                android:focusable="false"
+                                android:gravity="center"
+                                />
+                            <TextView
+                                android:id = "@+id/tv_activity_user_report_EndMonth"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="0.5"
+                                android:text="月"
+                                android:textSize="20dp"
+                                />
+                            <EditText
+                                android:id = "@+id/et_activity_user_report_EndDate"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="1.0"
+                                android:focusable="false"
+                                android:gravity="center"
+                                />
+                            <TextView
+                                android:id = "@+id/tv_activity_user_report_EndDate"
+                                android:layout_width="0dp"
+                                android:layout_height="40dp"
+                                android:layout_weight="0.5"
+                                android:text="日"
+                                android:textSize="20dp"
+                                />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            android:layout_marginTop="30dp">
+                            <Button
+                                android:id = "@+id/bt_activity_user_report_endtime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text = "结束时间"
+                                android:layout_gravity="center"
+                                android:textColor="@color/white"
+                                android:background="@drawable/shape_nbbutton_background"
+                                />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </android.support.design.card.MaterialCardView>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp">
+                    <Button
+                        android:id = "@+id/bt_activity_user_report_Report"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text = "查看报表"
+                        android:textColor="@color/white"
+                        android:background="@drawable/shape_nbbutton_background"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.design.card.MaterialCardView>
+    </LinearLayout>
+
+
+
+</ScrollView>

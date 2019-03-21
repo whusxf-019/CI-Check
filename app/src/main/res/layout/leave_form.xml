@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10sp">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/leave_type_form_til"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorEnabled="false">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/leave_type_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="请假类型"
+                    android:maxLines="1"
+                    android:textSize="15dp"
+                    android:background="@drawable/order_edt_note_bg" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10sp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="开始日期"
+                style="@style/Widget.MaterialComponents.Button"
+                android:textSize="15dp"
+                android:id="@+id/select_begin_day"/>
+            <TextView
+                android:id="@+id/begin_day_form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:text="请选择日期"
+                android:gravity="center"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10sp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="结束日期"
+                android:textSize="15dp"
+                android:id="@+id/select_end_day"
+                style="@style/Widget.MaterialComponents.Button"
+                />
+            <TextView
+                android:id="@+id/end_day_form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="请选择日期"
+                />
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/leave_message_form_til"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10sp"
+            app:errorEnabled="false">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="10"
+                android:gravity="top"
+                android:textSize="15dp"
+                android:id="@+id/leave_message_form"
+                android:background="@drawable/order_edt_note_bg"
+                android:hint="请假说明"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+</android.support.design.card.MaterialCardView>

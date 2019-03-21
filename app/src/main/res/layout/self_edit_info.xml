@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="15sp">
+    <EditText
+        android:id="@+id/edit_info_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aaaaaaaa"
+        android:textSize="40sp"
+        android:layout_marginVertical="15sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000"></View>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="15sp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="账号:"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/edit_info_account"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="15sp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="性别:"
+            android:textSize="25sp"
+            />
+        <Spinner
+            android:id="@+id/edit_info_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            
+            android:entries="@array/gender"/>
+    </LinearLayout>>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="15sp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="地址:"
+            android:textSize="25sp"
+            />
+        <EditText
+            android:id="@+id/edit_info_address"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="15sp"
+        android:orientation="vertical"
+        android:id="@+id/edit_info_group_id_ll">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="所在分组ID:"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/edit_info_group_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="15sp"
+        android:orientation="vertical"
+        android:id="@+id/edit_info_group_name_ll"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="所在分组名字:"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:id="@+id/edit_info_group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

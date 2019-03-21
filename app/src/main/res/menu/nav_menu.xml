@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id = "@+id/nav_SelectReport"
+            android:icon = "@drawable/nav_report"
+            android:title="查询报表"
+            >
+        </item>
+        <item
+            android:id = "@+id/nav_GetReport"
+            android:icon = "@drawable/nav_getreport"
+            android:title="生成报表"
+            >
+        </item>
+        <item
+            android:id = "@+id/nav_Analysis"
+            android:icon = "@drawable/nav_analysis"
+            android:title="个人分析"
+            >
+        </item>
+        <item
+            android:id = "@+id/info"
+            android:icon = "@drawable/nav_group"
+            android:title="更改个人信息"
+            >
+        </item>
+        <item
+            android:id= "@+id/cre_group"
+            android:icon = "@drawable/nav_create"
+            android:title="分组操作"
+            >
+        </item>
+    </group>
+</menu>

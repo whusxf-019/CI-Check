@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout android:id="@+id/message_item_ll"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/defaultcon"
+            android:id="@+id/typeIcon" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="系统消息"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/message_type" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/message_type"
+                android:text="你的请求被拒绝"
+                android:layout_alignLeft="@id/message_type"
+                android:id="@+id/message" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/message_time"
+                android:text="10:51"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@id/message" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

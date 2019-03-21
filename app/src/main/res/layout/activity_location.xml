@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="50dp"
+    tools:context=".activities.LocationActivity">
+
+
+
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/locationMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"></com.baidu.mapapi.map.MapView>
+
+
+    <ListView
+        android:layout_weight="3"
+        android:id="@+id/surrond_map"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@color/colorAccent"
+        android:divider="#19ffff81"
+        android:minHeight="@dimen/activity_horizontal_margin"
+        android:scrollbars="horizontal|vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/locationMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</LinearLayout>

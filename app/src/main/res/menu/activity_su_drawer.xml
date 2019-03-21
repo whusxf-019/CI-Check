@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/su_check_in"-->
+            <!--android:icon="@drawable/location"-->
+            <!--android:title="打卡" />-->
+        <item
+            android:id="@+id/su_group_member"
+            android:icon="@drawable/ic_perm_contact_calendar"
+            android:title="小组成员" />
+        <item
+            android:id="@+id/su_add_group"
+            android:icon="@drawable/ic_group_add"
+            android:title="加入分组" />
+        <item
+            android:id="@+id/su_leave_list"
+            android:icon="@drawable/ic_flag"
+            android:title="请假列表" />
+        <item
+            android:id="@+id/su_leave_form"
+            android:icon="@drawable/ic_library_add"
+            android:title="请假" />
+        <item
+            android:id="@+id/su_message"
+            android:icon="@drawable/ic_message"
+            android:title="消息" />
+        <item
+            android:id="@+id/su_daka_info"
+            android:icon="@drawable/calendar"
+            android:title="打卡记录" />
+        <item
+            android:id="@+id/su_report"
+            android:icon="@drawable/ic_action_bargraph"
+            android:title="统计" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/su_exit"
+                android:icon="@drawable/exit_q2"
+                android:title="退出" />
+
+        </menu>
+    </item>
+
+</menu>

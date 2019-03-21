@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_ad_group_info"
+            android:icon="@drawable/ic_perm_contact_calendar"
+            android:title="小组信息" />
+        <item
+            android:id="@+id/drawer_leave_list"
+            android:icon="@drawable/ic_flag"
+            android:title="请假审批" />
+        <item
+            android:id="@+id/drawer_message"
+            android:icon="@drawable/ic_forum"
+            android:title="消息" />
+        <item
+            android:id="@+id/drawer_add_member"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="添加成员" />
+        <item
+            android:id="@+id/drawer_daka_info"
+            android:icon="@drawable/calendar"
+            android:title="打卡信息" />
+        <item
+            android:id="@+id/drawer_report"
+            android:icon="@drawable/ic_action_bargraph"
+            android:title="统计" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+
+            <item
+                android:id="@+id/drawer_exit"
+                android:icon="@drawable/exit_q2"
+                android:title="退出" />
+        </menu>
+    </item>
+
+</menu>

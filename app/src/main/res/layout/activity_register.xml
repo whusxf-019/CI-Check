@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activities.LoginActivity"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <android.support.design.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="80dp"
+                    android:layout_marginTop="20dp"
+                    android:text="WONDER"
+                    android:textColor="@color/black_overlay"
+                    android:textAppearance="@style/TextAppearance.Shrine.Title" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.Wonder.TextInputLayout"
+                    >
+
+                    <EditText
+                        android:id="@+id/et_activity_login_account"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_account"
+                        android:inputType="numberSigned"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.Wonder.TextInputLayout"
+                    >
+
+                    <EditText
+                        android:id="@+id/et_activity_login_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_name"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.Wonder.TextInputLayout"
+                    >
+
+                    <EditText
+                        android:id="@+id/et_activity_login_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_password"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/Widget.Wonder.TextInputLayout"
+                    >
+
+                    <EditText
+                        android:id="@+id/et_activity_login_passwordagagin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_passwordagain"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"/>
+                    <CheckBox
+                        android:id="@+id/signup_manage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="我是管理员"
+                        android:textSize="15sp"
+                        android:layout_weight="1"
+                        android:layout_gravity="end"
+                        />
+                </LinearLayout>
+
+                <!--<Button-->
+                    <!--android:id="@+id/bt_activity_register_button"-->
+                    <!--style="?android:textAppearanceSmall"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="16dp"-->
+                    <!--android:text="@string/title_activity_register"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:background="@color/colorPrimaryDark"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--/>-->
+
+                <Button
+                    android:id="@+id/bt_activity_register_button"
+                    android:text="注册"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/shape_nbbutton_background"/>
+
+            </LinearLayout>
+
+
+        </android.support.design.card.MaterialCardView>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

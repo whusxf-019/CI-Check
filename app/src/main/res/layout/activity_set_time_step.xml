@@ -1,0 +1,242 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="16dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bt_activity_set_time_step_location"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_action_location"
+            android:layout_marginHorizontal="25sp"
+            />
+        <TextView
+            android:id="@+id/tv_activity_set_time_step_location"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="25sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/start"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00:00"
+                android:textSize="35sp"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="—"
+                android:textSize="35sp"
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/end"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="00:00"
+                android:textSize="35sp"
+                 />
+
+        </LinearLayout>
+
+        <com.example.hp.activitytest.util.CircleAlarmTimerView
+            android:id="@+id/circletimerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="70sp"
+            android:layout_marginTop="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginHorizontal="20sp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一"
+                android:textSize="20sp"/>
+            <CheckBox
+                android:id="@+id/ck_Monday"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="二"
+                android:textSize="20sp" />
+            <CheckBox
+                android:id="@+id/ck_Tuesday"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="三"
+                android:textSize="20sp"/>
+            <CheckBox
+                android:id="@+id/ck_Wednesday"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="四"
+                android:textSize="20sp"/>
+            <CheckBox
+                android:id="@+id/ck_Thursday"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="五"
+                android:textSize="20sp"/>
+            <CheckBox
+                android:id="@+id/ck_Friday"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="六"
+                android:textSize="20sp"/>
+            <CheckBox
+                android:id="@+id/ck_Saturday"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日"
+                android:textSize="20sp"/>
+            <CheckBox
+                android:id="@+id/ck_Sunday"
+                android:tag="7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/bt_activity_set_time_step_cancel"
+            android:layout_width="36sp"
+            android:layout_height="36sp"
+            android:background="@drawable/ic_action_cancel"
+            android:layout_marginHorizontal="100sp"
+            android:alpha="0.7"
+            />
+
+        <Button
+            android:id="@+id/bt_activity_set_time_step_submit"
+            android:layout_width="36sp"
+            android:layout_height="36sp"
+            android:background="@drawable/ic_action_tick"
+
+            android:layout_marginHorizontal="100sp"
+            android:alpha="0.7"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

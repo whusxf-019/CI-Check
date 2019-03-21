@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#f43a68</color>-->
+    <!--<color name="cutePink">#f43a68</color>-->
+    <!--<color name="white">#ffffff</color>-->
+
+    <!--<color name="black_overlay">#66000000</color>-->
+<!--</resources>-->
+<resources>
+    <color name="colorPrimary">#b2dfdb</color>
+    <color name="colorPrimaryDark">#4db6ac</color>
+    <color name="colorAccent">#b2dfdb</color>
+    <color name="textColorPrimary">#004d40</color>
+    <color name="toolbarIconColor">#004d40</color>
+    <color name="loginPageBackgroundColor">#FFFFFF</color>
+    <color name="productGridBackgroundColor">#FFFFFF</color>
+    <color name="colorControlActivated">#4db6ac</color>
+    <color name="black_overlay">#004d40</color>
+    <color name="cutePink">#4db6ac</color>
+    <color name="white">#ffffff</color>
+
+
+</resources>
